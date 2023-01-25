@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brown rabbit test</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav id="navBar">
+        <img id="logoForMobile" src="./assets/logo-white.svg" alt="logo-white is missing">
+        <img id="searchBtn" class="icon" src="./assets/icons/search.svg" alt="search icon missing">
+        <div id="burgerBtn" onclick="openBurgerMenu()">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </div>
+        <div id="searchContainer" class="hide">
+            <div class="searchBar">
+                <img class="searchForWeb" src="./assets/icons/search.svg" alt="search icon missing">
+                <input onkeyup="search()" id="searchInput" type="text" placeholder="search">
+                <div class="lineInSearchContainer"></div>
+            </div>
+            <div id="articlesInSearch"></div>
+        </div>
+        <div class="slideNav">
+            <div id="navContainer">
+                <div class="links">
+                    <a href="index.html">About us</a>
+                    <a href="index.html">Events</a>
+                    <a href="index.html">Nordic roaster</a>
+                    <a href="index.html">Results</a>
+                    <a href="index.html">Links</a>
+                    <a href="index.html">Contact</a>
+                </div>
+                <div class="socialIcons">
+                    <img src="./assets/icons/linkedin-white.svg" alt="linkedin missing">
+                    <img src="./assets/icons/twitter-white.svg" alt="twitter missing">
+                    <img src="./assets/icons/instagram-white.svg" alt="instagram missing">
+                    <img src="./assets/icons/facebook-white.svg" alt="facebook missing">
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <section id="galery">
+        <div class="galleryContainer slider">
+            <div class="slide">
+                <img src="./assets/images/posts/Post thumbnail-4.png" alt="gallery picture 1">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/posts/Post thumbnail-1.png" alt="gallery picture 1">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/posts/Post thumbnail-2.png" alt="gallery picture 1">
+            </div>
+            <img class="galleryBtn galleryBtn-prev" src="./assets/icons/arrow-left.svg" alt="left arrow">
+            <img class="galleryBtn galleryBtn-next" src="./assets/icons/arrow-right.svg" alt="right arrow">
+        </div>
+    </section>
+    <section id="articles">
+        <div id="header">
+            <div class="textShape">
+                <h3>"To create an environment in which knowledge about coffee and its sphere can be obtained"</h3>
+            </div>
+        </div>
+        <div id="articleContainer">
+
+        </div>
+        <div id="articleNav">
+            <div class="btn previousArticle">Previous</div>
+            <p>Page <span>1</span> of <span>3</span></p>
+            <div class="btn nextArticle">Next</div>
+        </div>
+    </section>
+    <section id="shoppingCar">
+        <h3>WBC Shop</h3>
+        <p>your shopping car is empty</p>
+        <div class="btn visitShop">Visit the shop</div>
+    </section>
+    <section id="events">
+        <h3>Next event</h3>
+        <h3>World Barista Cup 2021</h3>
+        <p>Copenhagen, Denmark</p>
+        <p>Dates : 25th - 27th August 2011</p>
+        <p>Theme: SENSORY</p>
+        <div class="btn signUpBtn">Sign up now</div>
+    </section>
+    <section id="scoreboard">
+        <h3>Scoreboard</h3>
+        <h3>List of winners from last year</h3>
+        <p>2021 - ?</p>
+        <p>2020 - Denmark</p>
+        <p>2021 - Sweden</p>
+        <p>2021 - Turkey</p>
+        <p>2021 - Italy</p>
+        <p>2021 - Italy</p>
+        <p>2021 - Germany</p>
+    </section>
+    <section id="sponsors">
+        <div class="header">
+            <h1>World Barista Cup Sponsor</h1>
+        </div>
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-1.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-2.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-3.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-4.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-5.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-6.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-7.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-8.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-9.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-10.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-11.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-12.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-13.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-14.png" alt="missing sposnor">
+        <img class="sponsorImg" src="./assets/images/sponsors/sponsor-15.png" alt="missing sposnor">
+
+    </section>
+    <footer>
+        <img class="logoInFooter" src="./assets/logo-white.svg" alt="logo-white is missing">
+        <div class="socialContainer">
+            <img src="./assets/icons/linkedin-white.svg" alt="linkedin missing">
+            <img src="./assets/icons/twitter-white.svg" alt="twitter missing">
+            <img src="./assets/icons/instagram-white.svg" alt="instagram missing">
+            <img src="./assets/icons/facebook-white.svg" alt="facebook missing">
+        </div>
+        <div class="lineInFooter"></div>
+        <div class="footerContent">
+            <h3>About World Barista Cup</h3>
+            <div class="textShapefooter">
+                <p><span class="greyColor">The vision within The World Barista Cup</span></p>
+                <p >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dignissimos ea, earum repellendus
+                    facere
+                    ad obcaecati omnis! Quisquam quaerat quasi ut ipsum corporis blanditiis, exercitationem minus
+                    sapiente
+                    dignissimos laborum incidunt!</p>
+            </div>
+        </div>
+        <div id="feed">
+            <h3>Instagram feed</h3>
+            <div class="feeds">
+                <img src="./assets/images/instagram-feed/instagram-image-1.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-2.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-3.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-4.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-5.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-6.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-7.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-8.png" alt="instagram missing">
+                <img src="./assets/images/instagram-feed/instagram-image-9.png" alt="instagram missing">
+
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Contact</h3>
+            <p>World Barista Cup</p>
+            <p class="greyColor">Amagertorv 13</p>
+            <p >1160 Copenhagen K</p>
+            <p>+45 33 12 04 28</p>
+            <p>CVR: 11427693</p>
+        </div>
+        <p class="mail"><span class="greyColor">Email: info@worldbaristacup.com</span></p>
+    </footer>
+
+    <script src="js/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
